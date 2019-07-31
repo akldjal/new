@@ -1,0 +1,54 @@
+.HeaderInfo {
+  width: 100%;
+  height: 44px;
+  background: #e1f0ff;
+  display: flex;
+  flex-direction: row;
+  .imgs {
+    width: 44px;
+    height: 44px;
+    background: url("../../../static/列克星敦NORMAL.png") no-repeat;
+    background-size: contain;
+  }
+  .life {
+    text-align: center;
+    width: 140px;
+    padding: 14px 20px;
+    background: #ffffff;
+    background-clip: content-box;
+    .lifeBack {
+      position: absolute;
+      height: 16px;
+      background: #7bff82;
+      z-index: 10;
+    }
+    .lifeValue {
+      width: 140px;
+      height: 16px;
+      position: absolute;
+      z-index: 20;
+    }
+  }
+  .energy {
+    text-align: center;
+    width: 142px;
+    padding: 14px 20px;
+    background: #ffffff;
+    background-clip: content-box;
+    .energyBack {
+      position: absolute;
+      height: 16px;
+      background: #7bbdff;
+    }
+    .energyValue {
+      width: 142px;
+      height: 16px;
+      position: absolute;
+    }
+  }
+  .back {
+    width: 70px;
+    height: 40px;
+    padding: 2px;
+  }
+}
